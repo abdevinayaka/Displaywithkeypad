@@ -18,7 +18,7 @@ LiquidCrystal_I2C lcd(I2C_ADDR,En_pin,Rw_pin,Rs_pin,D4_pin,D5_pin,D6_pin,D7_pin)
 
 const byte ROWS = 4; // Four rows
 const byte COLS = 3; // Three columns
-// Define the Keymap
+// Define the Keymapp
 char keys[ROWS][COLS] = {
   {'1','2','3'},
   {'4','5','6'},
